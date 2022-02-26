@@ -1,0 +1,22 @@
+* {
+    font-family: 'Verdana', 'Dejavu Sans', sans-serif;
+}
+
+.orange {
+    background-color: #ffcccb;
+}
+
+.orange.orange-3 {
+    font-size: 24px;    
+}
+
+#blue {
+    color:blue;
+    font-size: 36px;
+}
+
+#green {
+    background-color: #b8ff6f;
+    font-size: 24px;
+    font-weight: 800;
+}
