@@ -12,15 +12,12 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-
-
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex; 
-  gap: 10px;
 }
 
 a {
@@ -36,15 +33,17 @@ a {
 }
 
 .right-links {
-
   flex: 1 0 auto; 
- 
 }
 
 .left-links ul {
+  gap: 10px;
+  padding: 4px 32px;
   justify-content: left; 
 }
 
 .right-links ul {
+  gap: 10px;
+  padding: 4px 32px;
   justify-content: right; 
 }
